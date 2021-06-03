@@ -1,0 +1,45 @@
+ table,td {
+    border-collapse:collapse;
+ }
+
+ div{
+    display:flex;
+ }
+
+ p{
+    margin-right:50px;
+ }
+
+ .entity{
+    width:36px;
+    height:36px;
+ }
+
+ .tile{
+    width:36px;
+    height:36px;
+ }
+
+ .tile-wall{
+    background-image: url("i2.gif");
+ }
+
+ .tile-goal{
+    background-image: url("i1.gif");
+ }
+
+ .tile-space{
+    background-color:#2a2a2a;
+ }
+ 
+ .entity-player{
+    background-image: url("i5.gif");
+ }
+
+ .entity-block{
+    background-image: url("i3.gif");
+ }
+
+ .entity-block-goal{
+   background-image: url("i4.gif");
+ }

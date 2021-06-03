@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Sokoban</title>
+</head>
+
+
+<body>
+    <div>
+        <p id="time"></p>
+        <p id="moves"></p>
+    </div>
+    <button onclick="restart()">Restart</button>
+    <button onclick="location.reload()">Random game</button>
+    <button onclick="goBack()">  <<  </button>
+    <button id="forward" onclick="goForward()">  >>  </button>
+
+    <script src="settings.js"></script>
+    <script src="sokoban.js"></script>
+</body>
+
+</html>
